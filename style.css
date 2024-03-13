@@ -1,0 +1,89 @@
+@font-face { font-family: Comixo; src: url('Comixo-Regular.otf'); } 
+
+html {
+    background-color: #101820;
+}
+
+.logo a {
+    font-family: Comixo;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid white;
+}
+
+.logo span {
+    font-style: italic;
+    font-size: 45px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex: 1;
+    text-decoration: none;
+}
+
+
+header nav li {
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: Comixo;
+    font-size: 25px;
+}
+
+header nav li a:hover {
+    color: #E5383B;
+}
+
+header nav .Comprar {
+    display: block;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+header nav .Comprar a {
+    text-decoration: none;
+    font-family: Comixo;
+    color: white;
+    font-size: 20px;
+}
+
+
+header nav .Comprar:hover {
+    border: 1px solid #E5383B;
+    color: #E5383B
+}
+
+.modulo {
+    width:auto;
+    height:auto;
+}
+
+
+
