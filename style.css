@@ -1,0 +1,108 @@
+@font-face { font-family: Coco; src: url('Cocogoose-Pro-Darkmode-trial.ttf'); } 
+
+html {
+    background-color: #070707;
+    overflow-x: hidden;
+}
+
+.logoimg {
+    height: 50px;
+}
+
+.sobre {
+    border-top: white 1px solid;
+}
+
+.sobre h2 {
+    color: white;
+    font-size: 20xp;
+    font-family: 'Coco';
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+h2 span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid white;
+}
+
+.logo span {
+    font-style: italic;
+    font-size: 45px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 930px;
+}
+
+header nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex: 1;
+    text-decoration: none;
+}
+
+
+header nav li {
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: Comixo;
+    font-size: 25px;
+}
+
+header nav li a:hover {
+    color: #E5383B;
+}
+
+header nav .Comprar {
+    display: block;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+header nav .Comprar a {
+    text-decoration: none;
+    font-family: Comixo;
+    color: white;
+    font-size: 20px;
+}
+
+
+header nav .Comprar:hover {
+    border: 1px solid #23FF9C;
+    color: #23FF9C;
+    border-bottom: 6px #23FF9C solid;
+    padding-bottom: 10px;
+}
+
+.modulo {
+    width:auto;
+    height:auto;
+}
+
+
